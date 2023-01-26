@@ -51,28 +51,28 @@
   <p>Use the simplest solution that will work and avoid unnecessary complexity. This will make your code easier to understand and maintain. </p>
   
  ```javascript
- function getLastLetter (letter) {
-    const letters = letter.split("");
-    let lastLetter = '';
-    letters.forEach((letter, i) => {
-      if(i === letters.length - 1) {
-        lastLetter = letter
-      }
-    })
-    lastLetter = letters[letters.length - 1];
-    return lastLetter;
+function getLastLetter (letter) {
+  const letters = letter.split("");
+  let lastLetter = '';
+  letters.forEach((letter, i) => {
+    if(i === letters.length - 1) {
+      lastLetter = letter
     }
+  })
+  lastLetter = letters[letters.length - 1];
+  return lastLetter;
+  }
  
  ```
     
     
     
 ```javascript
-  function getLastLetter (letter) {
-    const letters = letter.split("");
-    const lastLetter = letters[letters.length - 1];
-    return lastLetter;
-   }
+function getLastLetter (letter) {
+  const letters = letter.split("");
+  const lastLetter = letters[letters.length - 1];
+  return lastLetter;
+ }
  ```
   
   As you can see the second implementation is cleaner and more readable than the first implementation  
@@ -87,29 +87,29 @@
   
   for example for naming variables use
 ```javascript
-      const l  = "kdfkjdf"; // wrong
-      const letters = "kdfkjdf"; // correct
+const l  = "kdfkjdf"; // wrong
+const letters = "kdfkjdf"; // correct
 ```
   
   for example for naming functions use an action 
 ```javascript
-      const getLastL  = () => {...}; // wrong
-      const getLastLetter = () => {...}; // correct
+const getLastL  = () => {...}; // wrong
+const getLastLetter = () => {...}; // correct
 ```
   
   for example for naming arrays use plurals
 ```javascript
-      const numberList  = [2,4,5]; // wrong
-      const numbers =  [2,4,5]; // correct
+const numberList  = [2,4,5]; // wrong
+const numbers =  [2,4,5]; // correct
 ```
  
    for example for naming booleans
 ```javascript
-      const loading  = true // wrong
-      const isLoading = true; // correct
-      // or you can use
-      const entered = true; // wrong
-      const hasEntered = true;  // correct
+const loading  = true // wrong
+const isLoading = true; // correct
+// or you can use
+const entered = true; // wrong
+const hasEntered = true;  // correct
 ```  
   
   #### Organize your code: 
@@ -133,9 +133,9 @@ function getLastLetter(letter) {
 
   // looping through the letters
   letters.forEach((letter, i) => {
-      if (i === letters.length - 1) {
-          lastLetter = letter;
-      }
+    if (i === letters.length - 1) {
+        lastLetter = letter;
+    }
   });
 
   // assigned the last letter
@@ -153,15 +153,15 @@ function getLastLetter(letter) {
  * @returns {string} - The last letter
  */
 function getLastLetter(letter) {
-    const letters = letter.split("");
-    let lastLetter = "";
-    letters.forEach((letter, i) => {
-        if (i === letters.length - 1) {
-            lastLetter = letter;
-        }
-    });
-    lastLetter = letters[letters.length - 1];
-    return lastLetter;
+  const letters = letter.split("");
+  let lastLetter = "";
+  letters.forEach((letter, i) => {
+      if (i === letters.length - 1) {
+          lastLetter = letter;
+      }
+  });
+  lastLetter = letters[letters.length - 1];
+  return lastLetter;
 }
 ```
   
