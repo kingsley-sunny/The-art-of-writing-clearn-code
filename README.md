@@ -1,6 +1,6 @@
 # The Art of writing clean code
 
-<img src='https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80' alt="Laptop with php code" />
+<img src='https://res.cloudinary.com/practicaldev/image/fetch/s--DVv9dGmZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kt2oyitm2dj73brrj8my.jpg' alt="Laptop with javascript code" />
 
 ## What is clean code all about 
 
